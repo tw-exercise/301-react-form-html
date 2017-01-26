@@ -4,46 +4,52 @@
 @blue: #438eb9;
 body {
   background: @grey;
-  .blue {
-    background-color: @blue;
+  padding: 5px 0 10px 5px;
+  .container {
+    width: 100%;
   }
-  .grey {
-    color: @grey;
-  }
-  .no-padding {
-    padding: 0;
-  }
-  .no-margin {
-    margin: 0;
-  }
-  .partOne {
-    .addPaper {
+  #add-paper {
+    .header {
+      padding: 5px 0 5px 10px;
       color: @white;
-      padding: 5px 0 5px 26px;
     }
-    .paperInfo {
+    .blue {
+      background-color: @blue;
+    }
+    .grey {
+      color: @grey;
+    }
+    .no-padding {
+      padding: 0;
+    }
+    .no-margin {
+      margin: 0;
+    }
+    .background {
+      background-color: #eff3f8;
+    }
+    .part-two {
+      padding: 25px 0 10px 0;
+    }
+    .paper-info {
+      margin-bottom: 3px;
       padding: 30px 0 10px 0;
-      margin-bottom: 2px;
-      .logicPuzzleType {
+      .logic-puzzle-type {
         .type {
           max-width: 100%;
+          height: 30px;
         }
       }
     }
-  }
-  .background {
-    background-color: #eff3f8;
-  }
-  .partTwo {
-    .programPuzzle {
+    .program-quizze {
       .title {
         color: @white;
         padding: 5px 0 5px 10px;
       }
-      .addProgram {
+      .add-program {
         background-color: @white;
         border: 1px solid @grey;
-        .addProgramButton {
+        .add-program-button {
           background-color: @white;
           border: solid 1px @grey;
           margin: 15px 0 20px 10px;
@@ -54,11 +60,11 @@ body {
         }
       }
     }
-    .addSection {
+    .add-section {
       background-color: @white;
       border: 1px solid @grey;
       margin-top: 20px;
-      .addSectionButton {
+      .add-section-button {
         background-color: @white;
         border: none;
         margin: 15px 0 20px 10px;
@@ -68,7 +74,7 @@ body {
         }
       }
     }
-    .submitButton{
+    .submitButton {
       background-color: @blue;
       color: @white;
       padding: 4px;
